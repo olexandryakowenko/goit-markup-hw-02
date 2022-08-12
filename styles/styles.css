@@ -1,1 +1,10 @@
-:root
+:root{
+--primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #F5F5F5;
+    --secondary-bg-color: #F5F4FA;
+    --white-color: #FFFFFF;
+    --logo-color: #000000;
+    --hero-bg-color: #2F303A;
+}
