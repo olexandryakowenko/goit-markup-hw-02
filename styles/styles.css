@@ -1,5 +1,5 @@
 :root{
---primary-text-color: #757575;
+    --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-bg-color: #F5F5F5;
@@ -7,4 +7,27 @@
     --white-color: #FFFFFF;
     --logo-color: #000000;
     --hero-bg-color: #2F303A;
+}
+.link {
+  text-decoration: none;  
+}
+.link:hover{
+    
+    color:var(--accent-color);
+}
+.link:focus{
+    
+        color:var(--accent-color);
+}
+.list{
+    list-style: none;
+}
+
+body{
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+
 }
