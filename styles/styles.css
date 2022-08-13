@@ -72,6 +72,7 @@ body {
   color: var(--scnd-title-color);
   background: var(--accent-color);
   border: none;
+  outline: none;
   cursor: pointer;
 
   font-family: inherit;
@@ -173,6 +174,7 @@ body {
 .btn-filters:hover,
 .btn-filters:focus {
   border: none;
+  outline: none;
   background-color: var(--accent-color);
   color: var(--scnd-title-color);
 }
