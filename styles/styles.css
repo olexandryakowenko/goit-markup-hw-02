@@ -22,7 +22,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* header and footer links */
 .logo {
   color: var(--accent-color);
 
@@ -56,29 +55,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
-.bottom {
-  background-color: var(--bg-section-color);
-}
-.bottom-logo {
-  color: var(--scnd-title-color);
-}
-
-.address-link {
-  color: #ffffff;
-
-  line-height: 1.71;
-  text-decoration: none;
-  font-style: normal;
-}
-
-.bottom .contact-link {
-  color: var(--footer-contacts-color);
-
-  line-height: 1.71;
-  text-decoration: none;
-  font-style: normal;
-}
 .hero {
   background-color: var(--bg-section-color);
 }
@@ -92,9 +68,11 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.button.hero {
+.button-hero {
   color: var(--scnd-title-color);
   background: var(--accent-color);
+  border: none;
+  cursor: pointer;
 
   font-family: inherit;
   font-size: 16px;
@@ -131,7 +109,29 @@ body {
   line-height: 1.19;
 }
 
-/* lists and links */
+.bottom {
+  background-color: var(--bg-section-color);
+}
+.bottom-logo {
+  color: var(--scnd-title-color);
+}
+
+.address-link {
+  color: #ffffff;
+
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.bottom .contact-link {
+  color: var(--footer-contacts-color);
+
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+}
+
 .list {
   list-style: none;
 }
@@ -145,7 +145,6 @@ body {
   color: var(--accent-color);
 }
 
-/* Сторінка portfolio */
 .portfolio-title {
   color: var(--title-color);
 
@@ -160,6 +159,7 @@ body {
 }
 
 .btn-filters {
+  border: none;
   background-color: var(--portfolio-btn-bgcolor);
   color: var(--title-color);
 
@@ -172,6 +172,7 @@ body {
 }
 .btn-filters:hover,
 .btn-filters:focus {
+  border: none;
   background-color: var(--accent-color);
   color: var(--scnd-title-color);
 }
@@ -181,7 +182,7 @@ body {
   background-color: var(--accent-color);
 }
 
-.portfolio.hero-title,
+.portfolio-hero-title,
 .filters-title {
   opacity: 0;
 }
