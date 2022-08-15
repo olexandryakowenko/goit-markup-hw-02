@@ -21,6 +21,9 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+img {
+  display: block;
+}
 
 .logo {
   color: var(--accent-color);
@@ -74,7 +77,6 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-
   font-family: inherit;
   font-size: 16px;
   line-height: 1.88;
